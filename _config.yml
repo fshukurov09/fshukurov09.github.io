@@ -1,0 +1,25 @@
+title: Farid Shukurov
+description: BsIT Student | Hardware & Cybersecurity Enthusiast
+url: “https://fshukurov09.github.io”
+baseurl: “”
+
+# Social links
+
+github_username: fshukurov09
+codecademy_username: bubblegum1011
+email: coollest1011@gmail.com
+
+# Build settings
+
+markdown: kramdown
+theme: minima
+plugins:
+
+- jekyll-feed
+
+exclude:
+
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor

@@ -1,110 +1,46 @@
-<!DOCTYPE html>
+-----
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">Your Name</a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+## layout: default
+title: Home
 
-```
-<!-- Hero Section -->
 <section class="hero">
     <div class="container">
         <div class="hero-content">
             <div class="profile-image">
-                <img src="images/profile.jpg" alt="Your Name">
+                <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Farid Shukurov">
             </div>
             <div class="hero-text">
-                <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
-                <p class="subtitle">Student | Developer | Creator</p>
-                <p class="description">
-                    Welcome to my portfolio! I'm a student passionate about technology, 
-                    problem-solving, and creating meaningful digital experiences. 
-                    This website showcases my journey in learning information systems 
-                    and web development.
+                <h1>Farid Shukurov</h1>
+                <p class="subtitle">BsIT Student | Hardware & Cybersecurity Enthusiast</p>
+                <p class="bio">
+                    First-year undergraduate student at ADA University pursuing a Bachelor's in Information Technology. 
+                    Passionate about hardware systems, cybersecurity, and artificial intelligence. 
+                    When I'm not coding or exploring technology, you'll find me on the judo mat practicing discipline and technique.
                 </p>
                 <div class="cta-buttons">
-                    <a href="projects.html" class="btn btn-primary">View Projects</a>
-                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                    <a href="{{ '/projects.html' | relative_url }}" class="btn btn-primary">View Projects</a>
+                    <a href="{{ '/about.html' | relative_url }}" class="btn btn-secondary">About Me</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Quick Links Section -->
-<section class="quick-links">
+<section class="highlights">
     <div class="container">
-        <h2>Connect With Me</h2>
-        <div class="social-icons">
-            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.codecademy.com/profiles/yourusername" target="_blank" aria-label="Codecademy">
-                <i class="fas fa-code"></i>
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
+        <div class="highlight-grid">
+            <div class="highlight-card">
+                <h3>Hardware</h3>
+                <p>Deep interest in computer architecture, logic circuits, and low-level systems</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Cybersecurity</h3>
+                <p>Exploring security principles, threat analysis, and protective measures</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Artificial Intelligence</h3>
+                <p>Learning about machine learning, neural networks, and AI applications</p>
+            </div>
         </div>
     </div>
 </section>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Your Name</h3>
-                <p>Building digital experiences, one project at a time.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="https://github.com/yourusername/site1101" target="_blank">
-                        <i class="fab fa-github"></i> View Source Code
-                    </a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Your Name. Built with HTML, CSS & JavaScript.</p>
-        </div>
-    </div>
-</footer>
-
-<script src="js/script.js"></script>
-```
-
-</body>
-</html>
